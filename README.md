@@ -20,9 +20,10 @@
   Cukup dengan meng-install package dan memanggil fungsi `loadTest`, Anda sudah bisa mulai melakukan load testing pada server Anda.
 
 ## Instalasi
+- npm install ddosxnet
 
 ### Kloning Repository
-Anda dapat mengkloning repository ini dari GitHub:
+Contoh testing dengan NodeJS
 ```bash
 const ddos = require('ddosxnet');
 
