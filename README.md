@@ -25,3 +25,9 @@
 Anda dapat mengkloning repository ini dari GitHub:
 ```bash
 git clone https://github.com/nadiacutew/Ddosxnet-npmjs
+
+```js
+const ddos = require('ddosxnet');
+
+// Menggunakan 500 concurrent requests dan total 10.000 request
+ddos.loadTest('http://webanda.com', 500, 10000);
