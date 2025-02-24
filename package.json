@@ -1,0 +1,21 @@
+{
+  "name": "ddosxnet",
+  "version": "1.0.0",
+  "description": "A load testing module for simulating DDoS-like traffic on your own server (use responsibly)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "ddos",
+    "load-test",
+    "stress-test",
+    "performance"
+  ],
+  "author": "Nama Anda",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "colors": "^1.4.0"
+  }
+}
